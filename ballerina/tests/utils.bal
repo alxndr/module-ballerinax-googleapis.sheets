@@ -15,7 +15,7 @@
 // under the License.
 import ballerina/uuid;
 
-# Create a random Uuid removing the unnecessary hyphens which will interrupt querying opearations.
+# Create a random Uuid removing the unnecessary hyphens which will interrupt querying operations.
 #
 # + return - A string Uuid without hyphens
 function createRandomUuidWithoutHyphens() returns string {
